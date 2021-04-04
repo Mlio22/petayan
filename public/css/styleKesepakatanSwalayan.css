@@ -1,0 +1,314 @@
+body{
+    max-width: 100%;
+    overflow-x:hidden;
+}
+
+/* nav */
+.navbar{
+    position: relative;
+    height: 86px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow:  0px 13px 5px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+.navbar a{
+    position: relative;
+    bottom: 6px;
+}
+.navbar-brand{
+    width: 261px;
+    height: 43px;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 37px;
+    line-height: 43px;
+
+    color: #000000;
+}
+.navbar-nav{
+    position: relative;
+    left: 150px;
+}
+.navbar-nav .btn1{
+    position: relative;
+    width: 46.12px;
+    height: 46.12px;
+    margin: auto;
+    background: #ffffff;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 50%;
+    top: 5px;
+ 
+}
+.navbar-nav .btn1 img{
+    position: relative;
+    width: 46.12px;
+    height: 46.12px;
+    bottom: 8px;
+    right: 14px;  
+}
+.navbar-nav .btn2{
+    position: relative;
+    width: 214px;
+    height: 46px;       
+    background: #29BA3F;
+    margin: auto;
+    color: #fff;
+    margin-left: 15px;
+    margin-right: 15px;
+    top: 5px;
+    background: #26B93D;
+    border-radius: 8px;
+}
+.btn2 h5{
+    position: relative;
+    top: 5px;
+    right: 13px;
+
+    width: 214px;
+    height: 25.49px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.navbar-nav .btn3{
+    position: relative;
+    width: 115px;
+    height: 46px;
+    background: #F21F1F;
+    border-radius: 8px;
+    color: #fff;
+    margin-left: 15px;
+    margin-right: 15px;
+    top: 5px;
+}
+.btn3 h5{
+    position: relative;
+    top: 3px;
+}
+/* Kesepakatan */
+.Kesepakatan{
+    width: 100%;
+    margin: auto;
+}
+.container-Kesepakatan{
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #28AC3D;
+}
+.wrap-Kesepakatan{
+    width: 1300px;
+    height: 900px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow:  -9px 0px 5px rgba(0, 0, 0, 0.25), 9px 0px 5px rgba(0, 0, 0, 0.25), 0px -9px 5px rgba(0, 0, 0, 0.25), 0px 12px 5px rgba(0, 0, 0, 0.25);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: 1;
+}
+/* Tabel */
+h1{
+    position: relative;
+    margin:20px 20px 20px 50px;
+    top: 50px;
+
+    width: 488px;
+    height: 41px;
+    font-weight: 1000;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: left;
+    /* identical to box height */
+
+    color: #000000;
+}
+.col-table{
+    position: relative;
+    bottom: 40px;
+    width: 113vh;
+}
+table{
+    position: relative;
+    margin:20px 20px 20px 50px;
+    
+}
+
+.col-table thead h3{
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 41px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+.col-table tbody h3{
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 41px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.col-table img{
+    width: 109px;
+    height: 81px;
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+/* kondisi buttom */
+.request h4{
+    width: 75px;
+    height: 41px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 41px;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.Aktif h4{
+    width: 75px;
+    height: 41px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 41px;
+    color: #25B93D;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.menolak h4{
+    width: 75px;
+    height: 41px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 41px;
+    color: #F21F1F;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.tambah-produk .btn{
+    position: relative;
+    width: 182px;
+    height: 56px;
+    background: #29BA3F;
+    margin: auto;
+    color: #fff;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+    bottom: 60px;
+    left: 50px;
+    
+    background: #26B93D;
+    border-radius: 8px;
+}
+
+.pages a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.pages a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.page{
+    background-color:rgba(196, 196, 196, 0.5);;
+    color: black;
+    margin: 0px 5px 0px 5px;
+    
+}
+.pages{
+    position: relative;
+    bottom: 120px;
+    width: 113vh;
+}
+/* footer */
+.endNav{
+    position: relative;
+    background: #26B93D;
+
+    box-shadow: 0px -11px 5px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    
+    height: 400px;
+}
+.endNav .row{
+    position: relative;
+    top: 40px;
+
+}
+.Heading1{
+    position: relative;
+    top: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+}
+
+.Heading2{
+    position: relative;
+    top: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+}
+
+.Heading3{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #FFFFFF ;
+
+    position: relative;
+    top: 60px;
+}
+
+.col1{
+    position: relative;
+    top: 20px;
+}
+.col2{
+    position: relative;
+    top: 50px;
+}

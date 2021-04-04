@@ -1,0 +1,618 @@
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+/* nav */
+
+.navbar {
+    position: relative;
+    height: 86px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 13px 5px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.navbar a {
+    position: relative;
+    bottom: 6px;
+}
+
+.navbar-brand {
+    width: 261px;
+    height: 43px;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 37px;
+    line-height: 43px;
+    color: #000000;
+}
+
+.navbar .btn1 {
+    position: relative;
+    width: 125px;
+    height: 46.12px;
+    background: #29BA3F;
+    margin: auto;
+    color: #fff;
+    margin-left: 5px;
+    margin-right: 5px;
+    background: #29BA3F;
+    border-radius: 8px;
+    top: 5px;
+}
+
+.navbar .btn2 {
+    position: relative;
+    width: 125px;
+    height: 46.12px;
+    margin: auto;
+    background: #ffffff;
+    color: #29BA3F;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 3px solid #28AC3D;
+    box-sizing: border-box;
+    border-radius: 8px;
+    top: 5px;
+}
+
+
+/* body login */
+
+.Login {
+    width: 100%;
+    margin: auto;
+}
+
+.container-login {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #28AC3D;
+}
+
+.wrap-login {
+    width: 1300px;
+    height: 700px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: -9px 0px 5px rgba(0, 0, 0, 0.25), 9px 0px 5px rgba(0, 0, 0, 0.25), 0px -9px 5px rgba(0, 0, 0, 0.25), 0px 12px 5px rgba(0, 0, 0, 0.25);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding: 177px 130px 75px 95px; */
+}
+
+
+/* login pic */
+
+.login-pic {
+    width: 500px;
+}
+
+.login-pic img {
+    position: relative;
+    z-index: 1;
+    max-width: 150%;
+    height: auto;
+    right: 35px;
+    top: 80px;
+    float: left;
+}
+
+
+/* login form */
+
+.login-form {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #C4C4C4;
+}
+
+.login-form-pic {
+    position: relative;
+    width: 133px;
+    top: 70px;
+}
+
+.login-form-pic img {
+    max-width: 100%;
+}
+
+.login-form-title {
+    position: relative;
+    top: 40px;
+    font-size: 37px;
+    color: #000000;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding-bottom: 54px;
+}
+
+.wrap-input {
+    position: relative;
+    width: 80%;
+    bottom: 40px;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+
+.inputLogin {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #5a5a5a;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    background: #ffffff;
+    height: 50px;
+    border-radius: 8px;
+    padding: 0 30px 0 68px;
+}
+
+.input-password {
+    position: relative;
+    bottom: 50px;
+}
+
+.login-icon-email {
+    position: relative;
+    width: 32px;
+    top: 40px;
+    left: 10px;
+}
+
+.login-icon-email img {
+    max-width: 100%;
+}
+
+.login-icon-password {
+    position: relative;
+    width: 32px;
+    z-index: 2;
+    left: 10px;
+    bottom: 10px;
+}
+
+.login-icon-password img {
+    max-width: 100%;
+}
+
+.login-form-other {
+    position: relative;
+    bottom: 100px;
+    right: 15px;
+}
+
+.txt1 {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #22AA38;
+}
+
+.txt2 {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.login-form-btn {
+    position: relative;
+    bottom: 50px;
+    left: 40px;
+    width: 125px;
+    height: 46.12px;
+    background: #29BA3F;
+    margin: auto;
+    color: #fff;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 8px;
+}
+
+
+/* endNav */
+
+.endNav {
+    position: relative;
+    background: #26B93D;
+    box-shadow: 0px -11px 5px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    height: 400px;
+}
+
+.endNav .row {
+    position: relative;
+    top: 40px;
+}
+
+.Heading1 {
+    position: relative;
+    top: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+}
+
+.Heading2 {
+    position: relative;
+    top: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+}
+
+.Heading3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    position: relative;
+    top: 60px;
+}
+
+.col1 {
+    position: relative;
+    top: 20px;
+}
+
+.col2 {
+    position: relative;
+    top: 50px;
+}
+
+
+/* Judul Daftar*/
+
+.judul-form-title {
+    position: relative;
+    top: 40px;
+    font-size: 37px;
+    color: #000000;
+    font-family: normal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37px;
+    line-height: 43px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding-bottom: 54px;
+}
+
+
+/*Swalayan*/
+
+.swalayan-pic {
+    position: relative;
+    width: 133px;
+    top: 0px;
+    left: 210px;
+}
+
+.swalayan-form-title {
+    position: relative;
+    top: 40px;
+    left: 40px;
+    font-size: 37px;
+    color: #000000;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding-bottom: 54px;
+}
+
+
+/*Petani*/
+
+.petani-pic {
+    position: relative;
+    width: 133px;
+    left: 650px;
+}
+
+.petani-form-title {
+    position: relative;
+    top: 40px;
+    left: 40px;
+    font-size: 37px;
+    color: #000000;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding-bottom: 54px;
+}
+
+.btn3 {
+    width: 200px;
+    height: 72px;
+    left: 20px;
+    background: #29BA3F;
+    margin: auto;
+    color: #fff;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    background: #29BA3F;
+    border-radius: 8px;
+    position: absolute;
+    box-shadow: 6px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/* Daftar sebagai petani*/
+
+.dafsu {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+}
+
+.container-dafsu {
+    width: 100%;
+    min-height: 130vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #28AC3D;
+}
+
+.wrap-dafsu {
+    width: 1300px;
+    height: 1000px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: -9px 0px 5px rgba(0, 0, 0, 0.25), 9px 0px 5px rgba(0, 0, 0, 0.25), 0px -9px 5px rgba(0, 0, 0, 0.25), 0px 12px 5px rgba(0, 0, 0, 0.25);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding: 177px 130px 75px 95px; */
+}
+
+.dafsu-form-title {
+    width: 100%;
+    position: relative;
+    width: 100%;
+    height: 43px;
+    top: 40px;
+    font-family: normal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37px;
+    left: 50px;
+    text-align: center;
+    display: block;
+    color: #000000;
+}
+
+.dafsu-pic {
+    position: relative;
+    top: 100px;
+    width: 133px;
+    left: 120px;
+}
+
+.dafsuloc-pic {
+    position: relative;
+    width: 133px;
+    top: 80px;
+    left: 20px;
+}
+
+.dafsuloc-pic img {
+    max-width: 200%;
+}
+
+.nama-pic {
+    position: relative;
+    width: 133px;
+    left: 120px;
+}
+
+.tes1 {
+    position: relative;
+    bottom: 50px;
+    width: 500px;
+    height: 46.12px;
+    margin: auto;
+    color: #fff;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 8px;
+}
+
+.data-form-title {
+    position: relative;
+    width: 100%;
+    height: 43px;
+    top: 90px;
+    font-family: normal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37px;
+    left: 300px;
+    text-align: center;
+    display: block;
+    color: #000000;
+}
+
+.nama-form-title {
+    position: relative;
+    width: 100%;
+    height: 43px;
+    top: 100px;
+    font-family: normal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    left: 50px;
+    text-align: center;
+    display: block;
+    color: #000000;
+}
+
+.form-control0 {
+    position: relative;
+    width: 100%;
+    height: 43px;
+    top: 20px;
+    font-family: normal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    left: 400px;
+    text-align: center;
+    display: block;
+    color: #000000;
+}
+
+.form-control1 {
+    position: relative;
+    width: 100%;
+    height: 43px;
+    top: 20px;
+    font-family: normal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    left: 400px;
+    text-align: center;
+    display: block;
+    color: #000000;
+}
+
+.form-control2 {
+    position: relative;
+    width: 100%;
+    height: 43px;
+    top: 20px;
+    font-family: normal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    left: 400px;
+    text-align: center;
+    display: block;
+    color: #000000;
+}
+
+.line {
+    position: relative;
+    height: 43px;
+    top: 100px;
+    font-family: normal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    left: 100px;
+    text-align: center;
+    display: block;
+    color: #000000;
+}
+
+.alamat-form-title {
+    position: relative;
+    width: 100%;
+    height: 43px;
+    top: 80px;
+    font-family: normal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37px;
+    left: 300px;
+    text-align: center;
+    display: block;
+    color: #000000;
+}
+
+.btns {
+    position: relative;
+    width: 200px;
+    height: 72px;
+    left: 500px;
+    top: 75px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 6px 8px 4px rgba(0, 0, 0, 0.25);
+    background: #29BA3F;
+}
+
+
+/*Akhir register petani & swalayan*/

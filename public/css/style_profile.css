@@ -1,0 +1,566 @@
+.navbar{
+    position: relative;
+    height: 76px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow:  0px 13px 5px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.navbar .btn1{
+    position: relative;
+    width: 125px;
+    height: 46.12px;
+    background: #29BA3F;
+    margin: auto;
+    color: #fff;
+    margin-left: 5px;
+    margin-right: 5px;
+  
+    background: #29BA3F;
+    border-radius: 8px;
+}
+.navbar .btn3{
+    position: relative;
+    width: 125px;
+    height: 46.12px;
+    background: #F21F1F;
+    margin: auto;
+    color: #fff;
+    margin-left: 5px;
+    margin-right: 5px;
+    left: 20px;
+ 
+    border-radius: 8px;
+}
+.navbar .btn4{
+    position: relative;
+    width: 50px;
+    height: 46.12px;
+    margin: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    bottom: 10px;
+}
+.btt{
+    position: relative;
+    width: 200px;
+    height: 46.12px;
+    top: 300px;
+    right: 300px;
+    background: #29BA3F;
+    margin: auto;
+    color: #fff;
+    margin-left: 5px;
+    margin-right: 5px;
+  
+    background: #29BA3F;
+    border-radius: 8px;
+}
+.bbf{
+    position: relative;
+    width: 200px;
+    height: 46.12px;
+    top: 400px;
+    right: 400px;
+    background: rgba(133, 133, 133, 0.25);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.bbe{
+    position: relative;
+    width: 200px;
+    height: 46.12px;
+    top: 650px;
+    right: 600px;
+    background: #29BA3F;
+    margin: auto;
+    color: #fff;
+    margin-left: 5px;
+    margin-right: 5px;
+  
+    background: #29BA3F;
+    border-radius: 8px;
+}
+/* body login */
+.Login{
+    width: 100%;
+    margin: auto;
+}
+.container-login{
+    width: 100%;
+    min-height: 150vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #28AC3D;
+}
+.wrap-login{
+    width: 1300px;
+    height: 1000px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow:  -9px 0px 5px rgba(0, 0, 0, 0.25), 9px 0px 5px rgba(0, 0, 0, 0.25), 0px -9px 5px rgba(0, 0, 0, 0.25), 0px 12px 5px rgba(0, 0, 0, 0.25);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding: 177px 130px 75px 95px; */
+}
+/* login pic */
+.wrap-pilihan{
+    width: 300px;
+    height: 1000px;
+    background: rgba(196, 196, 196, 0.25);
+    border-radius: 10px;
+    overflow: hidden;
+  
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding: 177px 130px 75px 95px; */
+}
+/* login pic */
+
+.login-pic {
+    width: 500px;
+    
+}
+  
+.login-pic img {
+    position: relative;
+    z-index: 1;
+    max-width: 150%;
+    height: auto;
+    right: 35px; 
+    top: 80px;
+    float: left;
+    
+}
+/* login form */
+.login-form {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #C4C4C4;
+    
+}
+
+/* endNav */
+.endNav{
+    position: relative;
+    background: #26B93D;
+
+    box-shadow: 0px -11px 5px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    
+    height: 400px;
+}
+.endNav .row{
+    position: relative;
+    top: 40px;
+
+}
+.Heading1{
+    position: relative;
+    top: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+}
+
+.Heading2{
+    position: relative;
+    top: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+}
+
+.Heading3{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #FFFFFF ;
+
+    position: relative;
+    top: 60px;
+}
+
+.col1{
+    position: relative;
+    top: 20px;
+}
+.col2{
+    position: relative;
+    top: 200px;
+}
+.col3{
+    position: relative;
+   bottom: 150px;
+   left: 40px;
+}
+
+.bbn{
+    width: 200px;
+    height: 40px;
+    left: 60px;
+    top:40px;
+   
+    margin: auto;
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+   
+    position: absolute;
+
+}
+.bbn1{
+    width: 200px;
+    height: 40px;
+    left: 60px;
+    bottom: 500px;
+   
+    margin: auto;
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+   
+    position: absolute;
+
+}
+.bbn2{
+    width: 200px;
+    height: 40px;
+    left: 60px;
+    bottom: 740px;
+   
+    margin: auto;
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+   
+   
+    position: absolute;
+
+}
+.teks{
+    width: 200px;
+    height: 40px;
+    right: 750px;
+    top: 30px;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+    position: absolute;
+}
+.teks1{
+    width: 200px;
+    height: 40px;
+    right: 750px;
+    top: 100px;
+   
+    margin: auto;
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+   
+   
+    position: absolute;
+}
+.teks2{
+    width: 200px;
+    height: 40px;
+    right: 750px;
+    top: 150px;
+   
+    margin: auto;
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+   
+   
+    position: absolute;
+}
+.teks3{
+    width: 200px;
+    height: 40px;
+    right: 750px;
+    top: 200px;
+   
+    margin: auto;
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+   
+   
+    position: absolute;
+}
+.teks4{
+    width: 200px;
+    height: 40px;
+    right: 750px;
+    top: 250px;
+   
+    margin: auto;
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+   
+   
+    position: absolute;
+}
+.teks5{
+    width: 200px;
+    height: 40px;
+    right: 750px;
+    top: 300px;
+   
+    margin: auto;
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+   
+   
+    position: absolute;
+}
+.teks6{
+    width: 200px;
+    height: 40px;
+    right: 750px;
+    top: 350px;
+   
+    margin: auto;
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+   
+   
+    position: absolute;
+}
+.teks7{
+    width: 200px;
+    height: 40px;
+    right: 750px;
+    top: 400px;
+   
+    margin: auto;
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+   
+   
+    position: absolute;
+}
+
+.lab{
+    position: relative ;
+    width: 100%;
+    height: 43px;
+    font-family: normal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    right: 430px;
+    text-align: center;
+    display: block;
+    top: 80px;
+  
+    color: #000000;
+}
+.lab1{
+    position: relative ;
+    width: 100%;
+    height: 43px;
+    font-family: normal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    right: 430px;
+    text-align: center;
+    display: block;
+    top: 120px;
+  
+    color: #000000;
+}
+.lab2{
+    position: relative ;
+    width: 100%;
+    height: 43px;
+    font-family: normal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    right: 430px;
+    text-align: center;
+    display: block;
+    top: 170px;
+  
+    color: #000000;
+}
+.lab3{
+    position: relative ;
+    width: 100%;
+    height: 43px;
+    font-family: normal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    right: 430px;
+    text-align: center;
+    display: block;
+    top: 220px;
+  
+    color: #000000;
+}
+.lab4{
+    position: relative ;
+    width: 100%;
+    height: 43px;
+    font-family: normal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    right: 430px;
+    text-align: center;
+    display: block;
+    top: 280px;
+  
+    color: #000000;
+}
+.lab5{
+    position: relative ;
+    width: 100%;
+    height: 43px;
+    font-family: normal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    right: 430px;
+    text-align: center;
+    display: block;
+    top: 320px;
+  
+    color: #000000;
+}
+.labpa{
+    position: relative ;
+    width: 100%;
+    height: 43px;
+    font-family: normal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    right: 400px;
+    text-align: center;
+    display: block;
+    top: 80px;
+  
+    color: #000000;
+}
+.labpa1{
+    position: relative ;
+    width: 100%;
+    height: 43px;
+    font-family: normal;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    right: 400px;
+    text-align: center;
+    display: block;
+    top: 120px;
+  
+    color: #000000;
+}
+
+.gambar img{
+    bottom: 80px;
+}
