@@ -65,7 +65,7 @@
                 <tbody>
                     @foreach($products as $product)
                   <tr>
-                    <th scope="row"><h3>{{$loop->index}}</h3></th>
+                    <th scope="row"><h3>{{$loop->index + 1}}</h3></th>
                     <td><img src="img/mangga.jpg"></td>
                     <td><h3>{{$product->nama_produk}}</h3></td>
                     <td><h3>{{$product->kategori_produk}}</h3></td>

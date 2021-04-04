@@ -8,7 +8,7 @@ use Session;
 
 function getProdukData($limit){
     $datas = (array) DB::table('produk')
-        -> select('id', 'id_petani','nama_produk', 'harga_produk', 'gambar_produk', 'waktu_kadaluarsa')
+        -> select('id', 'id_petani','nama_produk', 'harga_produk', 'gambar_produk', 'waktu_kadaluarsa', 'kategori_produk')
         -> limit($limit)
         -> get();
 

@@ -12,7 +12,7 @@
                  Password Lama
               </span>
                 <div class="col1">
-                 <input name="password_before" class="form-control labpa" type="text" placeholder=" " aria-label="default input example">
+                 <input name="password_before" class="form-control labpa" type="password" placeholder=" " aria-label="default input example">
                 </div>
            </div>
            <div class="col1">
@@ -20,7 +20,7 @@
                   Password Baru
                 </span>
                 <div class="col1">
-                 <input name="password_after" class="form-control labpa1" type="text" placeholder=" " aria-label="default input example">
+                 <input name="password_after" class="form-control labpa1" type="password" placeholder=" " aria-label="default input example">
                 </div>
            </div>
            <a href="#">

@@ -21,9 +21,11 @@
       </button>
       <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
+            @if($loggedAs == 'petani')
             <a href="/daftar-produk">
               <button class="btn btn1"type="submit">Produk Saya</button>
             </a>
+            @endif
             <a href="/daftar-kesepakatan">
               <button class="btn"type="submit">
                 <img src="img/handshake 1.png" alt="IMG">

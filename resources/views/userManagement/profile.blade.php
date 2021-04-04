@@ -10,7 +10,7 @@
                  Nama
               </span>
                 <div class="col1">
-                 <input value={{$datas->nama}} value='a' class="form-control lab" type="text" placeholder=" " aria-label="default input example">
+                 <input readonly value={{$datas->nama}} value='a' class="form-control lab" type="text" placeholder=" " aria-label="default input example">
                 </div>
            </div>
            <div class="col1">
@@ -18,7 +18,7 @@
                   Email
                 </span>
                 <div class="col1">
-                 <input value={{$datas->email}} class="form-control lab1" type="text" placeholder=" " aria-label="default input example">
+                 <input readonly value={{$datas->email}} class="form-control lab1" type="text" placeholder=" " aria-label="default input example">
                 </div>
            </div>
            <div class="col1">
@@ -26,7 +26,7 @@
                    No HP
                 </span>
                 <div class="col1">
-                 <input value={{$datas->nomor_telpon}} class="form-control lab2" type="text" placeholder=" " aria-label="default input example">
+                 <input readonly value={{$datas->nomor_telpon}} class="form-control lab2" type="text" placeholder=" " aria-label="default input example">
                 </div>
            </div>
            <div class="col1">
@@ -34,7 +34,7 @@
                    Provinsi
                 </span>
                 <div class="col1">
-                 <input value={{$datas->lokasi_provinsi}} class="form-control lab3" type="text" placeholder=" " aria-label="default input example">
+                 <input readonly value={{$datas->lokasi_provinsi}} class="form-control lab3" type="text" placeholder=" " aria-label="default input example">
                 </div>
            </div>
            <div class="col1">
@@ -42,7 +42,7 @@
                    Kabupaten
                 </span>
                 <div class="col1">
-                 <input value={{$datas->lokasi_kabupaten}} class="form-control lab4" type="text" placeholder=" " aria-label="default input example">
+                 <input readonly value={{$datas->lokasi_kabupaten}} class="form-control lab4" type="text" placeholder=" " aria-label="default input example">
                 </div>
            </div>
            <div class="col1">
@@ -50,7 +50,7 @@
                    Alamat
                 </span>
                 <div class="col1">
-                 <input value={{$datas->lokasi_deskripsi}} class="form-control lab5" type="text" placeholder=" " aria-label="default input example">
+                 <input readonly value={{$datas->lokasi_deskripsi}} class="form-control lab5" type="text" placeholder=" " aria-label="default input example">
                 </div>
            </div>
            <div class="col3">

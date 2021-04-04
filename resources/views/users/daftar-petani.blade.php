@@ -29,7 +29,7 @@
                         Nama
                       </span>
                       <div class="col1">
-                      <input name="nama" class="form-control0" type="text" placeholder=" " aria-label="default input example">
+                      <input required name="nama" class="form-control0" type="text" placeholder=" " aria-label="default input example">
                       </div>
                 </div>
                 <div class="col1">
@@ -37,7 +37,7 @@
                         Username
                       </span>
                       <div class="col1">
-                      <input name="username" class="form-control1" type="text" placeholder=" " aria-label="default input example">
+                      <input required name="username" class="form-control1" type="text" placeholder=" " aria-label="default input example">
                       </div>
                 </div>
                 <div class="col1">
@@ -45,7 +45,7 @@
                         Password
                       </span>
                       <div class="col1">
-                      <input name="password" class="form-control2" type="password" placeholder=" "  aria-label="default input example">
+                      <input required name="password" class="form-control2" type="password" placeholder=" "  aria-label="default input example">
                       </div>
                 </div>
                 <div class="col1">
@@ -53,7 +53,7 @@
                        Email
                     </span>
                     <div class="col1">
-                     <input name="email" class="form-control2" type="text" placeholder=" " aria-label="default input example">
+                     <input required name="email" class="form-control2" type="text" placeholder=" " aria-label="default input example">
                     </div>
                </div>
                <div class="col1">
@@ -61,7 +61,7 @@
                        No HP
                     </span>
                     <div class="col1">
-                     <input name="noHp" class="form-control2" type="text" placeholder=" " aria-label="default input example">
+                     <input required name="noHp" class="form-control2" type="text" placeholder=" " aria-label="default input example">
                     </div>
                </div>
                 <hr class="line"  width="300%"/>
@@ -73,7 +73,7 @@
                       Provinsi
                   </span>
                   <div class="col1">
-                    <input name="lokasi_provinsi" class="form-control0" type="text" placeholder=" " aria-label="default input example">
+                    <input required name="lokasi_provinsi" class="form-control0" type="text" placeholder=" " aria-label="default input example">
                   </div>
               </div>
               <div class="col1">
@@ -81,7 +81,7 @@
                       Kabupaten
                   </span>
                   <div class="col1">
-                    <input name="lokasi_kabupaten" class="form-control0" type="text" placeholder=" " aria-label="default input example">
+                    <input required name="lokasi_kabupaten" class="form-control0" type="text" placeholder=" " aria-label="default input example">
                   </div>
               </div>
               <div class="col1">
@@ -89,7 +89,7 @@
                       Alamat Lengkap
                   </span>
                   <div class="col1">
-                    <input name="lokasi_deskripsi" class="form-control0" type="text" placeholder=" " aria-label="default input example">
+                    <input required name="lokasi_deskripsi" class="form-control0" type="text" placeholder=" " aria-label="default input example">
                   </div>
                     <button class="btn btns"type="submit">Daftar</button>
               </div>

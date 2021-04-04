@@ -25,7 +25,7 @@
                 <a href="#">
                     <button class="btn btn-market" type="submit"> 
                     <div class="market-col">
-                        <img src ="img/mangga.jpg" alt="IMG">
+                        <img src ="img/swalayan.png" alt="IMG">
                         <h3>{{$data->nama}}</h3>
                         <h4>{{$data->lokasi_kabupaten}},{{$data->lokasi_provinsi}}</h4>
                     </div>
@@ -43,7 +43,7 @@
                 <a href="#">
                     <button class="btn btn-market" type="submit"> 
                     <div class="market-col">
-                        <img src ="img/mangga.jpg" alt="IMG">
+                        <img src ="img/swalayan.png" alt="IMG">
                         <h3>{{$data->nama}}</h3>
                         <h4>{{$data->lokasi_kabupaten}},{{$data->lokasi_provinsi}}</h4>
                     </div>
@@ -82,7 +82,7 @@
                         <div class="product-col">
                             <img src ="img/mangga.jpg" alt="IMG">
                             <h3>{{$data->nama_produk}}</h3>
-                            <h5>Buah</h5>
+                            <h5>{{$data->kategori_produk}}</h5>
                             <h5 class="rightHeading  d-flex justify-content-end">Bogor,Jawa Barat</h5>
                             <h5 class="rightHeading  d-flex justify-content-end">Kadaluarsa : 12 hari</h5>
                             <h5>Mulai dari</h5>
@@ -106,7 +106,7 @@
                         <div class="product-col">
                             <img src ="img/mangga.jpg" alt="IMG">
                             <h3>{{$data->nama_produk}}</h3>
-                            <h5>Buah</h5>
+                            <h5>{{$data->kategori_produk}}</h5>
                             <h5 class="rightHeading  d-flex justify-content-end">{{$data->lokasi_kabupaten}}, {{$data->lokasi_provinsi}}</h5>
                             <h5 class="rightHeading  d-flex justify-content-end">Kadaluarsa : {{$data->waktu_kadaluarsa}} hari</h5>
                             <h5>Mulai dari</h5>
@@ -145,7 +145,7 @@
                     <div class="product-col">
                             <img src ="img/mangga.jpg" alt="IMG">
                             <h3>{{$data->nama_produk}}</h3>
-                            <h5>Buah</h5>
+                            <h5>{{$data->kategori_produk}}</h5>
                             <h5 class="rightHeading  d-flex justify-content-end">{{$data->lokasi_kabupaten}}, {{$data->lokasi_provinsi}}</h5>
                             <h5 class="rightHeading  d-flex justify-content-end">Kadaluarsa : {{$data->waktu_kadaluarsa}} hari</h5>
                             <h5>Mulai dari</h5>
@@ -177,7 +177,7 @@
                     @foreach ($datas['swalayan'][0] as $data)
                     <div class="col">
                         <div class="market-col">
-                            <img src="img/mangga.jpg" alt="IMG">
+                            <img src="img/swalayan.png" alt="IMG">
                             <h3>{{$data->nama}}</h3>
                             <h4>{{$data->lokasi_kabupaten}}, {{$data->lokasi_provinsi}}</h4>
                         </div>
